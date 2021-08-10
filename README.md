@@ -1,6 +1,15 @@
-# Simple commit message hooks
+<p align="center">
+  <a href="https://github.com/Elanlum/python_git_hooks">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-:octocat: :white_check_mark: Contains simple examples of **prepare-commit-msg**, **commit-msg** hooks.
+  <h2 align="center">Simple commit message hooks</h2>
+
+  <p align="center">
+    :octocat: :white_check_mark: Contains simple examples of <b>prepare-commit-msg</b>, <b>commit-msg** hooks</b>.
+  </p>
+<br>
+
 
 ## Description
 
@@ -10,7 +19,7 @@
 To be triggered by hook branch name contains a substring that complies with pattern: `````^[A-Z]{1,9}-[0-9]{1,9}`````
 
 The diagram below shows the workflow of the prepare-commit-msg hook.
-![diagram](./prepare-commit-msg.png)
+![diagram](./images/prepare-commit-msg.png)
 
 2. Commit-msg hook is intended to help developers to formalize commit messages. It checks typed commit message for the presence of the specified template and declines commit if message doesn't correspond to the template.
 
@@ -39,7 +48,7 @@ Now if you execute
 
 ```git config --global --list```
 
-####<ins>You're breathtaking!</ins>
+<ins>You're breathtaking!</ins>
 
 ### Executing
 

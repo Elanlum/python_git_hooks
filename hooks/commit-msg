@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 """
-This script is designed in order to produce lightweight prefixing of commit message
-depending on current branch name (e.g. Jira ticket number).
+This script is designed in order to filter commit messages BEFORE creating a commit
+according to specified pattern (i.e. regexp).
+
 by Elanlum
 """
 

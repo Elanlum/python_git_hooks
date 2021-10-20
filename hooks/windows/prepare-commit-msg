@@ -1,0 +1,3 @@
+#!/bin/sh
+COMMIT_MSG_FILE=$1
+python .git/hooks/prepare-commit-msg.py "$COMMIT_MSG_FILE"

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 """
 This script is designed in order to filter commit messages BEFORE creating a commit
 according to specified pattern (i.e. regexp).

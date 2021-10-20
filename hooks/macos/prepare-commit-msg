@@ -4,7 +4,7 @@
 This script is designed in order to produce lightweight prefixing of commit message
 depending on current branch name (e.g. Jira ticket number).
 
-by Elanlum
+by Roman Gorbatenko
 """
 
 import re

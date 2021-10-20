@@ -33,6 +33,8 @@ The diagram below shows the workflow of the prepare-commit-msg hook.
 
 ### Installing
 
+#### Mac OS
+
 * Download file with hook - **python script**
 * For Python hook you're also going to need Python 3 installed (Mac has it out of the box, but on Windows you have to set it up manually).
 * Make sure filename is **prepare-commit-msg** or **commit-msg**
@@ -49,6 +51,12 @@ Now if you execute
 ```git config --global --list```
 
 <ins>You're breathtaking!</ins>
+
+#### Windows
+
+* Download pairs of hooks from windows **directory**
+* Copy them into **your_project/.git/hooks** directoty
+* Do not forget to make files executable
 
 ### Executing
 

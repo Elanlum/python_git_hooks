@@ -69,5 +69,7 @@ In case any problems occur check every step of the installation process.
 
 ## Authors
 
+Also see article on the subject published on Habr --> https://habr.com/ru/company/dins/blog/584562/
+
 Roman Gorbatenko  
 [@Elanlum](roman.gorabtenko@gmail.com)

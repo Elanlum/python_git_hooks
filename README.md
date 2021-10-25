@@ -27,7 +27,7 @@ The diagram below shows the workflow of the prepare-commit-msg hook.
 
 ### Dependencies
 
-* Python 3 installed
+* Python 3.* installed
 * Windows 10 or Mac OS 11, Linux (ex. Ubuntu)
 * Git 2.3
 
@@ -58,6 +58,7 @@ Now if you execute
 * Copy them into **your_project/.git/hooks** directory or add to git global config
 * Do not forget to make files executable
 * Make sure Python is added to Path on your machine
+* Note that hook on Windows consists of two scripts: shell script calling python script
 
 ### Executing
 
